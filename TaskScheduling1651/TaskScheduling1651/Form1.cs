@@ -61,5 +61,10 @@ namespace TaskScheduling1651
             OptimalOrder.DataSource = null;
             OptimalOrder.DataSource = TaskSchedulingFunctions.GreedyTaskListWithSwaping(TaskScheduler.Instance.AllTasks); 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
